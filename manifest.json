@@ -1,0 +1,21 @@
+{
+    "name": "TAL Downloader",
+    "description": "Download This American Life Episodes",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_icon": "icon.png",
+        "default_title": "Download This American Life Episodes"
+    },
+    "permissions": [
+        "activeTab",
+        "downloads",
+        "declarativeContent"
+    ]
+}
